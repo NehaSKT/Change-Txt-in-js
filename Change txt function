@@ -1,7 +1,25 @@
-echo "# Change-Txt-in-js" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/NehaSKT/Change-Txt-in-js.git
-git push -u origin main
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script>
+		 function changeText() 
+ {
+  var demo = document.getElementById('demo');
+  if (demo.innerHTML === 'This is JavaScript!') {
+    demo.innerHTML = 'Watch this HTML content changes..';
+  } else {
+    demo.innerHTML = 'This is JavaScript!';
+  }
+}
+	</script>
+
+</head>
+<body
+<h1>Change content exercise</h1>
+
+<p id="demo">Watch this HTML content changes..</p>
+
+<button type="button" onclick="changeText()">Click Me!</button>
+</body>
+
+</html>
